@@ -1,0 +1,27 @@
+<div class="row" style="margin-top: 20px;">
+    <div class="col-md-12">
+        <p class="lead">STARZ has developed this online destination where you can access all of our eligible programming for 2014, exclusive to voting members.  Thank you for your consideration. Enjoy!</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12" ng-repeat="show in shows" ng-if="show.name != 'Home'">
+        <div class="contentBox">
+            <div><p class="center">
+                <img ng-src="img/{{show.thumbnail}}" alt="{{show.name}}" class="img-responsive centerEl hotspot" ng-click="gotoPage('originals/', show.id)">
+            </p>
+
+            </div>
+
+            <img ng-src="img/{{show.ta}}" alt="{{show.name}}" class="img-responsive centerEl hotspot" ng-click="gotoPage('originals/', show.id)">
+
+            <h2 class="center blue serif tightText">"{{show.quote.text}}"</h2>
+            <p class="center mediumText">{{show.quote.source}}</p>
+
+            <p class="center blue shadow smallText" ng-repeat="category in show.categories">
+                <strong><span class="uppercase">{{category.title}}</span></strong><span ng-if="category.person != undefined"><br>{{category.person}}</span>
+            </p>
+
+            </div>
+    </div>
+</div>

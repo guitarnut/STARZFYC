@@ -1,0 +1,293 @@
+{
+    "originals": [
+        {
+            "id": "homepage",
+            "name": "Home",
+            "gallery": [
+                {
+                    "image": "gallery_emmy_1.jpg"
+                },{
+                    "image": "gallery_wq_1.jpg"
+                },{
+                    "image": "gallery_dote_1.jpg"
+                },{
+                    "image": "gallery_bs_1.jpg"
+                },{
+                    "image": "gallery_dd_1.jpg"
+                },{
+                    "image": "gallery_mc_1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "thewhitequeen",
+            "name": "The White Queen",
+            "ta": "ta_wq_black.png",
+            "thumbnail": "thumb_wq.jpg",
+            "quote": {
+                "text": "Addictive",
+                "source": "More Magazine"
+            },
+            "categories": [
+                {
+                    "title": "Outstanding Miniseries"
+                },
+                {
+                    "title": "Outstanding Lead Actress in a Miniseries",
+                    "person": "Rebecca Ferguson"
+                },
+                {
+                    "title": "Outstanding Supporting Actress in a Miniseries",
+                    "person": "Janet McTeer"
+                }
+            ],
+            "longDescription": "<p>The White Queen is a riveting portrayal of one of the most dramatic and turbulent times in English history. A story of love and lust, seduction and deception, betrayal and murder, it is uniquely told through the perspective of three different, yet equally relentless women - Elizabeth Woodville, Margaret Beaufort and Anne Neville. In their quest for power, they will scheme, manipulate and seduce their way onto the English throne.</p>",
+            "gallery": [
+                {
+                    "image": "gallery_wq_1.jpg"
+                },
+                {
+                    "image": "gallery_wq_2.jpg"
+                },
+                {
+                    "image": "gallery_wq_3.jpg"
+                },
+                {
+                    "image": "gallery_wq_4.jpg"
+                },
+                {
+                    "image": "gallery_wq_5.jpg"
+                }
+            ],
+            "playlistId": "2735191618001",
+            "sites": [
+                {
+                    "name": "View on Starz.com",
+                    "url": "http://www.starz.com/originals/thewhitequeen"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/WQueen_Starz"
+                },
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/TheWhiteQueen.starz"
+                }
+            ]
+        },{
+            "id": "dancingontheedge",
+            "name": "Dancing On The Edge",
+            "ta": "ta_dote_black.png",
+            "thumbnail": "thumb_dote.jpg",
+            "quote": {
+                "text": "Compelling",
+                "source": "The Hollywood Reporter"
+            },
+            "categories": [
+                {
+                    "title": "Outstanding Miniseries"
+                },
+                {
+                    "title": "Outstanding Lead Actor in a Miniseries",
+                    "person": "Chiwetel Ejiofor"
+                },
+                {
+                    "title": "Outstanding Supporting Actress in a Miniseries",
+                    "person": "Jacqueline Bisset"
+                }
+            ],
+            "longDescription": "<p>An explosive drama set in the early 1930's following a jazz band in London at a time of extraordinary change. This was a time when Britain was at a great crossroads; just out of the financial crash and before the Second World War, when movies, magazines and music were becoming and jazz was taking the world by storm. The sudden death of one of the band members tests of all of the characters' friendships, love, racial equality and moral values.</p>",
+            "gallery": [
+                {
+                    "image": "gallery_dote_1.jpg"
+                },
+                {
+                    "image": "gallery_dote_2.jpg"
+                },
+                {
+                    "image": "gallery_dote_3.jpg"
+                },
+                {
+                    "image": "gallery_dote_4.jpg"
+                }
+            ],
+            "playlistId": "2735191633001",
+            "sites": [
+                {
+                    "name": "View on Starz.com",
+                    "url": "http://www.starz.com/originals/dancingontheedge"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/DancingOnTheEdg"
+                },
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/pages/Dancing-On-The-Edge/373549492719889"
+                }
+            ]
+        },{
+            "id": "blacksails",
+            "name": "Black Sails",
+            "ta": "ta_bs_black.png",
+            "thumbnail": "thumb_bs.jpg",
+            "quote": {
+                "text": "Massive",
+                "source": "Rollingstone.com"
+            },
+            "categories": [
+                {
+                    "title": "Outstanding Drama Series"
+                },
+                {
+                    "title": "Outstanding Art Direction for a Period Series"
+                },
+                {
+                    "title": "Outstanding Special and Visual Effects"
+                }
+            ],
+            "longDescription": "<p>1715. The Golden Age of Piracy in the Caribbean is at its apex. The former British colony of New Providence Island is now lawless territory, controlled by the most notorious pirate captains in history. The most feared among them is Captain Flint.</p>",
+            "gallery": [
+                {
+                    "image": "gallery_bs_1.jpg"
+                },
+                {
+                    "image": "gallery_bs_2.jpg"
+                },
+                {
+                    "image": "gallery_bs_3.jpg"
+                },
+                {
+                    "image": "gallery_bs_4.jpg"
+                },
+                {
+                    "image": "gallery_bs_5.jpg"
+                },
+                {
+                    "image": "gallery_bs_6.jpg"
+                }
+            ],
+            "playlistId": "3393505705001",
+            "sites": [
+                {
+                    "name": "View on Starz.com",
+                    "url": "http://www.starz.com/originals/blacksails"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/BlkSails_Starz"
+                },
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/blacksails.starz"
+                }
+            ]
+        },{
+            "id": "davincisdemons",
+            "name": "Da Vinci's Demons",
+            "ta": "ta_dd_black.png",
+            "thumbnail": "thumb_dd.jpg",
+            "quote": {
+                "text": "Heroic",
+                "source": "Collider.com"
+            },
+            "categories": [
+                {
+                    "title": "Outstanding Drama Series"
+                },
+                {
+                    "title": "Outstanding Costumes for a Series"
+                },
+                {
+                    "title": "Outstanding Art Direction for a Period Series"
+                }
+            ],
+            "longDescription": "<p>In season 2, Florence is thrown into chaos in the wake of the Pazzi conspiracy and Leonardo da Vinci must push the limits of his mind and body to defend the city against the forces of Rome. When the dust settles, friends are buried and rivalries enflamed. While the Medicis go to unthinkable lengths to deal with new threats, da Vinci continues on his quest to find the fabled Book of Leaves and uncover the secret history of his mother. He'll come to realize that he has lethal competition in his quest-- new enemies who may be even worse than the forces of Pope Sixtus. His search will take him to faraway lands and force him to reevaluate everything he knew about the world and his own history. </p>",
+            "gallery": [
+                {
+                    "image": "gallery_dd_1.jpg"
+                },
+                {
+                    "image": "gallery_dd_2.jpg"
+                },
+                {
+                    "image": "gallery_dd_3.jpg"
+                },
+                {
+                    "image": "gallery_dd_4.jpg"
+                },
+                {
+                    "image": "gallery_dd_5.jpg"
+                }
+            ],
+            "playlistId": "3393505704001",
+            "sites": [
+                {
+                    "name": "View on Starz.com",
+                    "url": "http://www.starz.com/originals/davincisdemons"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/DaVincis_Starz"
+                },
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/davincisdemons.starz"
+                }
+            ]
+        },{
+            "id": "magiccity",
+            "name": "Magic City",
+            "ta": "ta_mc_black.png",
+            "thumbnail": "thumb_mc.jpg",
+            "quote": {
+                "text": "Sexy",
+                "source": "Boston Globe"
+            },
+            "categories": [
+                {
+                    "title": "Outstanding Drama Series"
+                },
+                {
+                    "title": "Outstanding Costumes for a Series"
+                },
+                {
+                    "title": "Outstanding Art Direction for a Period Series"
+                }
+            ],
+            "longDescription": "<p>Miami Beach, 1959. The beautiful life is about to get ugly. As Ike Evans rings in the New Year at his luxurious Miramar Playa Hotel, Havana falls to Castro’s rebels. It’s a turbulent time in Miami, nicknamed \"Magic City\" for its explosive growth - it is THE place to be. The Kennedys, the mob and the CIA all hold court here. And Ike, he’s the star of his hotel.</p>",
+            "gallery": [
+                {
+                    "image": "gallery_mc_1.jpg"
+                },
+                {
+                    "image": "gallery_mc_2.jpg"
+                },
+                {
+                    "image": "gallery_mc_3.jpg"
+                },
+                {
+                    "image": "gallery_mc_4.jpg"
+                },
+                {
+                    "image": "gallery_mc_5.jpg"
+                }
+            ],
+            "playlistId": "2733078395001",
+            "sites": [
+                {
+                    "name": "View on Starz.com",
+                    "url": "http://www.starz.com/originals/magiccity"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/MagicCity_Starz"
+                },
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/magiccity.starz"
+                }
+            ]
+        }
+    ]
+}

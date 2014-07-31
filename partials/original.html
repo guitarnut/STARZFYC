@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-md-12"><p class="marginTop"><img ng-src="img/{{show.ta}}" alt="{{show.name}}"></p>
+
+        <button class="button buttonLink" ng-repeat="site in show.sites" ng-click="goto(site.url)">
+            {{site.name}}
+        </button>
+
+        <p ng-bind-html="show.longDescription"></p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12"><h3>"{{show.name}}" Full Episodes</h3></div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12" id="spin1">
+        <object id="myExperience" class="BrightcoveExperience">
+            <param name="bgcolor" value="#FFFFFF"/>
+            <param name="width" value="480"/>
+            <param name="height" value="270"/>
+            <param name="playerID" value="3336114681001"/>
+            <param name="playerKey" value="AQ~~,AAAAAEaigsI~,YF3XTVmQgAsL3z8opj3WpvvLsf9qzBEE"/>
+            <param name="isVid" value="true"/>
+            <param name="isUI" value="true"/>
+            <param name="dynamicStreaming" value="true"/>
+            <param name="includeAPI" value="true"/>
+            <param name="templateLoadHandler" value="BC.onTemplateLoad"/>
+            <param name="templateReadyHandler" value="BC.onTemplateReady"/>
+        </object>
+
+        <script type="text/javascript">brightcove.createExperiences();</script>
+    </div>
+    <div class="col-md-6" id="spin2" style="min-height: 270px;">
+        <div ng-repeat="video in videos" video="video" class="videoThumb whiteBorder noMarginPadding noOverflow hotspot col-md-4 col-xs-4" ng-click="playVideo(video.id)" video-thumb></div>
+    </div>
+</div>

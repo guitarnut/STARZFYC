@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" ng-app="starz">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>STARZ FYC</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <script src="lib/angular/angular-sanitize.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/global.css"/>
+
+    <link rel="stylesheet" href="css/ie.css"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy"/>
+    <link href="lib/respondjs/respond.proxy.gif" id="respond-redirect" rel="respond-redirect"/>
+    <script src="lib/respondjs/respond.proxy.js"></script>
+    <script src="lib/ie.js"></script><![endif]-->
+
+</head>
+<body ng-cloak>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand"><img src="img/logo_fyc.png" width="168" height="32" alt="STARZ FYC"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul ng-controller="NavigationController" class="nav navbar-nav">
+
+                <li ng-repeat="link in nav" ng-class="{active: current === link.name}">
+                    <a ng-if="link.name === 'Home'" ng-click="changeNav(link.name); gotoPage('')"><strong>{{link.name}}</strong></a>
+                    <a ng-if="link.name != 'Home'" ng-click="changeNav(link.name); gotoPage('originals/', link.href)"><strong>{{link.name}}</strong></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container noPadding" id="marquee" marquee-gallery></div>
+
+<div class="container roundedBottom" ng-view style="padding-bottom: 40px;"></div>
+
+<div class="container noBG marginTop" ng-include="'includes/footer.html'"></div>
+
+<div class="fullscreenDiv overlap moveBack"><img src="img/wave1.png" class="img-responsive centerEl"></div>
+
+
+<script src="lib/brightcove/Brightcove.js"></script>
+<script src="lib/spinjs/spin.min.js"></script>
+<script src="lib/spinjs/spinner.js"></script>
+<script src="js/angular/app_starz.js"></script>
+<script src="js/angular/controller_navigation.js"></script>
+<script src="js/angular/controller_homepage.js"></script>
+<script src="js/angular/controller_originals.js"></script>
+<script src="js/angular/directive_marquee.js"></script>
+<script src="js/angular/directive_videoThumb.js"></script>
+<script src="js/angular/service_showdata.js"></script>
+<script src="js/angular/service_brightcove.js"></script>
+
+<!--Dev -->
+<!--
+<script src="lib/brightcove/Brightcove.js"></script>
+<script src="lib/spinjs/spin.min.js"></script>
+<script src="lib/spinjs/spinner.js"></script>
+<script src="js/angular/app_starz.js"></script>
+<script src="js/angular/controller_navigation.js"></script>
+<script src="js/angular/controller_homepage.js"></script>
+<script src="js/angular/controller_originals.js"></script>
+<script src="js/angular/directive_marquee.js"></script>
+<script src="js/angular/directive_videoThumb.js"></script>
+<script src="js/angular/service_showdata.js"></script>
+<script src="js/angular/service_brightcove.js"></script>
+-->
+
+<!-- Prod -->
+<!--
+<script src="../build/lib/brightcove/Brightcove.min.js"></script>
+<script src="../build/lib/spinjs/spinner.min.js"></script>
+<script src="lib/spinjs/spin.min.js"></script>
+<script src="../build/lib/spinjs/spinner.min.js"></script>
+<script src="../build/js/angular/angular.min.js"></script>
+-->
+</body>
+</html>
+
